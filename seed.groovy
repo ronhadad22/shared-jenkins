@@ -44,5 +44,5 @@ def buildPipelineJobs() {
     createTestJob(testName, repoUrl)
 
 }
-
+println "ttt. ${env.JOB_NAME}"
 buildPipelineJobs()
