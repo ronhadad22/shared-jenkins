@@ -3,6 +3,7 @@ def call(){
         stage('Checkout') {
             checkout scm
         }
+        println "dddd"
 
         // Execute different stages depending on the job
         if(env.JOB_NAME.contains("deploy")){
